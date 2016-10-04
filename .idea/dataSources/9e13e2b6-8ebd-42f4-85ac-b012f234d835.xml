@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="MySQL - devega@localhost">
+  <database-model serializer="dbm" rdbms="MYSQL" format-version="2.6">
+    <schema id="1" name="devega">
+      <visible>1</visible>
+    </schema>
+    <schema id="2" name="information_schema"/>
+    <schema id="3" name="mysql"/>
+    <schema id="4" name="performance_schema"/>
+    <schema id="5" name="phpmyadmin"/>
+    <schema id="6" name="test"/>
+    <table id="7" parent="1" name="indexs"/>
+    <table id="8" parent="1" name="news"/>
+    <column id="9" parent="7" name="id">
+      <mandatory>1</mandatory>
+      <data-type>int(10)|0</data-type>
+      <sequence-identity>1</sequence-identity>
+    </column>
+    <column id="10" parent="7" name="label">
+      <comment>顺序标签</comment>
+      <mandatory>1</mandatory>
+      <data-type>int(2)|0</data-type>
+      <default-expression>&apos;0&apos;</default-expression>
+    </column>
+    <column id="11" parent="7" name="title">
+      <mandatory>1</mandatory>
+      <data-type>varchar(30)|0</data-type>
+      <default-expression>&apos;&apos;</default-expression>
+    </column>
+    <column id="12" parent="7" name="content">
+      <mandatory>1</mandatory>
+      <data-type>varchar(200)|0</data-type>
+      <default-expression>&apos;&apos;</default-expression>
+    </column>
+    <column id="13" parent="7" name="link">
+      <comment>图片或视频URL</comment>
+      <mandatory>1</mandatory>
+      <data-type>varchar(200)|0</data-type>
+    </column>
+    <column id="14" parent="7" name="type">
+      <mandatory>1</mandatory>
+      <data-type>varchar(10)|0</data-type>
+    </column>
+    <key id="15" parent="7" name="PRIMARY">
+      <columns>id</columns>
+      <primary>1</primary>
+    </key>
+    <column id="16" parent="8" name="id">
+      <mandatory>1</mandatory>
+      <data-type>int(10)|0</data-type>
+      <sequence-identity>1</sequence-identity>
+    </column>
+    <column id="17" parent="8" name="title">
+      <mandatory>1</mandatory>
+      <data-type>varchar(50)|0</data-type>
+    </column>
+    <column id="18" parent="8" name="abstract">
+      <mandatory>1</mandatory>
+      <data-type>varchar(500)|0</data-type>
+    </column>
+    <column id="19" parent="8" name="content">
+      <data-type>text|0</data-type>
+    </column>
+    <column id="20" parent="8" name="createtime">
+      <mandatory>1</mandatory>
+      <data-type>datetime|0</data-type>
+      <default-expression>CURRENT_TIMESTAMP</default-expression>
+    </column>
+    <key id="21" parent="8" name="PRIMARY">
+      <columns>id</columns>
+      <primary>1</primary>
+    </key>
+  </database-model>
+</dataSource>
