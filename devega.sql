@@ -41,13 +41,13 @@ CREATE TABLE IF NOT EXISTS `indexs` (
 --
 
 INSERT INTO `indexs` (`id`, `label`, `title`, `content`, `link`, `type`) VALUES
-(1, 1, '咨询业务', '凭借专业的知识、经验、技术和广泛的信息渠道，向客户提供可行性报告', 'img/index/about1.jpg', 'about'),
-(2, 2, '培训业务', '给新员工或现有员工传授其完成本职工作所必需的正确思维认知、基本知识和技能', 'img/index/about2.jpg', 'about'),
-(3, 3, '风控系统RCS', 'RCS系统设计了灵活的处理机制，大部分安全威胁能自动处理，从而实现故障自愈', 'img/index/about3.jpg', 'about'),
-(4, 4, '系列课程', '系列课程适合对象:店总经理、副总经理、招商高管及其他相关部门人员等', 'img/index/about4.jpg', 'about'),
-(5, 1, '', '', 'img/index/banner1.jpg', 'banner'),
-(6, 2, '', '', 'img/index/banner2.jpg', 'banner'),
-(7, 3, '', '', 'img/index/banner3.jpg', 'banner'),
+(1, 1, '咨询业务', '凭借专业的知识、经验、技术和广泛的信息渠道，向客户提供可行性报告', '/devega/img/index/about1.jpg', 'about'),
+(2, 2, '培训业务', '给新员工或现有员工传授其完成本职工作所必需的正确思维认知、基本知识和技能', '/devega/img/index/about2.jpg', 'about'),
+(3, 3, '风控系统RCS', 'RCS系统设计了灵活的处理机制，大部分安全威胁能自动处理，从而实现故障自愈', '/devega/img/index/about3.jpg', 'about'),
+(4, 4, '系列课程', '系列课程适合对象:店总经理、副总经理、招商高管及其他相关部门人员等', '/devega/img/index/about4.jpg', 'about'),
+(5, 1, '', '', '/devega/img/index/banner1.jpg', 'banner'),
+(6, 2, '', '', '/devega/img/index/banner2.jpg', 'banner'),
+(7, 3, '', '', '/devega/img/index/banner3.jpg', 'banner'),
 (8, 0, '', '', 'http://player.youku.com/player.php/sid/XMTU4MzMyNTk3Mg==/isAutoPlay/false/newPlayer/true/v.swf', 'video');
 
 -- --------------------------------------------------------

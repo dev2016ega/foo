@@ -25,33 +25,48 @@ $(document).ready(function() {
 			//加载视频
 			document.getElementById("video_squre").data = data.Data.video[0].link;
 
-			//加载新闻
+			//加载新闻题目
 			// alert(data.Data.news[1].title +" " +data.Data.news[1].title.length);
             if(data.Data.news[0].title.length > 23)
-				document.getElementById("newsOneTitle").textContent = data.Data.news[0].title.substring(0,23)+"...";
+				document.getElementById("newsOneTitle").textContent = data.Data.news[0].title.substring(0,20)+"...";
 			else
 				document.getElementById("newsOneTitle").textContent = data.Data.news[0].title;
 
 			if(data.Data.news[1].title.length > 23)
-				document.getElementById("newsTwoTitle").textContent = data.Data.news[1].title.substring(0,23)+"...";
+				document.getElementById("newsTwoTitle").textContent = data.Data.news[1].title.substring(0,20)+"...";
 			else
 				document.getElementById("newsTwoTitle").textContent = data.Data.news[1].title;
 
 			if(data.Data.news[2].title.length > 23)
-				document.getElementById("newsThreeTitle").textContent = data.Data.news[2].title.substring(0,23)+"...";
+				document.getElementById("newsThreeTitle").textContent = data.Data.news[2].title.substring(0,20)+"...";
 			else
 				document.getElementById("newsThreeTitle").textContent = data.Data.news[2].title;
 
 			if(data.Data.news[3].title.length > 23)
-				document.getElementById("newsFourTitle").textContent = data.Data.news[3].title.substring(0,23)+"...";
+				document.getElementById("newsFourTitle").textContent = data.Data.news[3].title.substring(0,20)+"...";
 			else
 				document.getElementById("newsThreeTitle").textContent = data.Data.news[3].title;
 
+			//加载新闻内容
+			if(data.Data.news[0].abstract.length > 66)
+				document.getElementById("newsOne").textContent = data.Data.news[0].abstract.substring(0,66)+"...";
+			else
+				document.getElementById("newsOne").textContent = data.Data.news[0].abstract;
 
-			document.getElementById("newsOne").textContent = data.Data.news[0].abstract;
-			document.getElementById("newsTwo").textContent = data.Data.news[1].abstract;
-			document.getElementById("newsThree").textContent = data.Data.news[2].abstract;
-			document.getElementById("newsFour").textContent = data.Data.news[3].abstract;
+			if(data.Data.news[1].abstract.length > 66)
+				document.getElementById("newsTwo").textContent = data.Data.news[1].abstract.substring(0,66)+"...";
+			else
+				document.getElementById("newsTwo").textContent = data.Data.news[1].abstract;
+
+			if(data.Data.news[2].abstract.length > 66)
+				document.getElementById("newsThree").textContent = data.Data.news[2].abstract.substring(0,66)+"...";
+			else
+				document.getElementById("newsThree").textContent = data.Data.news[2].abstract;
+
+			if(data.Data.news[3].abstract.length > 66)
+				document.getElementById("newsFour").textContent = data.Data.news[3].abstract.substring(0,66)+"...";
+			else
+				document.getElementById("newsFour").textContent = data.Data.news[3].abstract;
 		}
 	})
 })

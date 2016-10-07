@@ -207,3 +207,7 @@
 [04-Oct-2016 12:51:22 Asia/Shanghai] PHP Fatal error:  require(): Failed opening required 'C:\xampp\htdocs\devega\lib\IndexIndexController.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\devega\start.php on line 13
 [04-Oct-2016 12:52:51 Asia/Shanghai] PHP Warning:  require(C:\xampp\htdocs\devega\lib\IndexIndexController.php): failed to open stream: No such file or directory in C:\xampp\htdocs\devega\start.php on line 13
 [04-Oct-2016 12:52:51 Asia/Shanghai] PHP Fatal error:  require(): Failed opening required 'C:\xampp\htdocs\devega\lib\IndexIndexController.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\devega\start.php on line 13
+[06-Oct-2016 22:13:08 Asia/Shanghai] PHP Warning:  require(C:\xampp\htdocs\devega\lib\IndexIndexController.php): failed to open stream: No such file or directory in C:\xampp\htdocs\devega\start.php on line 13
+[06-Oct-2016 22:13:08 Asia/Shanghai] PHP Fatal error:  require(): Failed opening required 'C:\xampp\htdocs\devega\lib\IndexIndexController.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\devega\start.php on line 13
+[06-Oct-2016 22:16:12 Asia/Shanghai] PHP Warning:  require(C:\xampp\htdocs\devega\lib\IndexIndexController.php): failed to open stream: No such file or directory in C:\xampp\htdocs\devega\start.php on line 13
+[06-Oct-2016 22:16:12 Asia/Shanghai] PHP Fatal error:  require(): Failed opening required 'C:\xampp\htdocs\devega\lib\IndexIndexController.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\devega\start.php on line 13

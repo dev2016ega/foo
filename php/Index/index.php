@@ -4,13 +4,15 @@
 <head>
     <meta charset="utf-8"/>
     <title></title>
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
     <link rel="stylesheet" href="../../css/home.css" type="text/css"/>
     <!--<link rel="stylesheet" href="../../css/huandengpian.css" type="text/css"/>-->
     <link rel="stylesheet" href="../../css/linkcss.css" type="text/css">
     <link rel="stylesheet" href="../../css/huawei.css" type="text/css"/>
     <link rel="stylesheet" href="../../css/bootstrap.css" type="text/css"/>
-    <script src="../../js/jquery-1.7.1.min.js"></script>
+<!--    <script src="../../js/jquery-1.7.1.min.js"></script>-->
     <link rel="stylesheet" href="../../css/bootstrap_v3.3.css" type="text/css"/>
+    <Link rel="stylesheet" href="../../css/cover_css.css" type="text/css" />
     <script src="http://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js"></script>
     <script src="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="../../js/test_height.js"></script>
@@ -95,8 +97,6 @@
 
 <!------bootstrap huandengpian---->
 
-<body>
-
 <div id="myCarousel" class="carousel slide">
     <!-- 轮播（Carousel）指标 -->
     <ol class="carousel-indicators">
@@ -127,7 +127,7 @@
 </div>
 
 <!------------end of boostrap huandengpian------------------->
-<div class="bannerCenteredFullWidth parbase section">
+<div class="bannerCenteredFullWidth parbase section" style="overflow:hidden">
     <div class="bannerCenteredFullWidth bannerCenteredFullWidth-wrap blackFontColor contentCenter bgColor no-image">
         <div class="block-wrapper01">
             <div class="block-wrapper02">
@@ -159,7 +159,7 @@
 
 <!-----------------------under wenji------------------------>
 
-<!----huawei square-->
+<!----square-->
 <div id="hw1_card_list" class="lg-container">
     <div class="row row_diy">
         <div class="col-sm-6 row_diy">
@@ -195,7 +195,7 @@
         </div>
         <div class="col-sm-6 row_diy">
             <div class="row row_diy">
-                <div class="col-sm-12" style="height:440px;margin-bottom:20px">
+                <div class="col-sm-12 sqaure_top_bottom">
 
                     <div class="hw1_multi_img animate-item animate-start animate-delay-1" style="display:block;height:100%">
                         <div class="hw1_img" style="display:block;">
@@ -226,7 +226,7 @@
                         <input id="hideTargetId" type="hidden" value="">
                     </div>
                 </div>
-                <div class="col-sm-12" style="height:440px">
+                <div class="col-sm-12 sqaure_top_bottom">
 
                     <div class="hw1_multi_img animate-item animate-start" style="display:block;height: 100%;">
                         <div class="hw1_img" style="display:block;">
@@ -262,7 +262,7 @@
     </div>
 </div>
 
-<!---------end of huawei square---------->
+<!---------end of square---------->
 
 <div id="video">
     <div style="width:50%;padding:30px 10px 0px 15px;float:left">
@@ -324,7 +324,7 @@
 
             } );
 
-        </script
+        </script>
     </div>
 
 </div>
@@ -345,19 +345,19 @@
                                     <div class="columnIconHighlightBox genericComponent parbase section">
                                         <section
                                                 class="iconHighlightBoxContent no-overlay left-button-alignment left-headline-alignment same-height-left"
-                                                style="min-height: 200px;">
+                                                style="min-height: 100px;">
                                             <h3>
                                                 <span id="newsOneTitle" class="same-height-left" style="height: 31px;">2016中远财务有限责任公司...</span>
                                             </h3>
 
                                             <div class="paragraph rte-content-wrapper same-height-left"
-                                                 style="min-height: 80px;">
+                                                 style="min-height: 50px;">
                                                 <p id="newsOne">
                                                     基于信息物理系统的智能制造信息技术与制造业深度融合，正在引领制造方式变革，形成新的产业形态和商业模式。了解SAP如何帮助客户驾驭工业4.0，抢占制造业新一轮竞争制高点。<br>
                                                 </p>
                                             </div>
                                             <ul>
-                                                <p class="more">更多 > </p>
+                                                <p class="more" style="padding:0px">更多 > </p>
                                             </ul>
                                         </section>
                                     </div>
@@ -369,18 +369,18 @@
                                     <div class="columnIconHighlightBox genericComponent parbase section">
                                         <section
                                                 class="iconHighlightBoxContent no-overlay left-button-alignment left-headline-alignment same-height-right"
-                                                style="min-height: 200px;">
+                                                style="min-height: 100px;">
                                             <h3>
                                                 <span id="newsTwoTitle" class="same-height-right" style="height: 31px;">2016中远财务有限责任公司...</span>
                                             </h3>
                                             <div class="paragraph rte-content-wrapper same-height-right"
-                                                 style="min-height: 80px;">
+                                                 style="min-height: 50px;">
                                                 <p id="newsTwo">SAP 推出的这些面向中小型企业的软件中，有价格在你承受范围内的业务管理软件、行业特定的 ERP
                                                     解决方案和功能强大的业务分析软件，你可以根据需要自行选择。化繁为简，就是现在！<br>
                                                 </p>
                                             </div>
                                             <ul>
-                                                <p class="more">更多 > </p>
+                                                <p class="more" style="padding:0px">更多 > </p>
                                             </ul>
                                         </section>
                                     </div>
@@ -411,20 +411,20 @@
                                     <div class="columnIconHighlightBox genericComponent parbase section">
                                         <section
                                                 class="iconHighlightBoxContent no-overlay left-button-alignment left-headline-alignment same-height-left"
-                                                style="min-height: 200px;">
+                                                style="min-height: 100px;">
                                             <h3>
                                                 <span id="newsThreeTitle" class="same-height-left"
                                                       style="height: 31px;">2016中远财务有限责任公司...</span>
                                             </h3>
 
                                             <div class="paragraph rte-content-wrapper same-height-left"
-                                                 style="min-height: 80px;">
+                                                 style="min-height: 50px;">
                                                 <p id="newsThree">
                                                     基于信息物理系统的智能制造信息技术与制造业深度融合，正在引领制造方式变革，形成新的产业形态和商业模式。了解SAP如何帮助客户驾驭工业4.0，抢占制造业新一轮竞争制高点。<br>
                                                 </p>
                                             </div>
                                             <ul>
-                                                <p class="more">更多 > </p>
+                                                <p class="more" style="padding:0px">更多 > </p>
                                             </ul>
                                         </section>
                                     </div>
@@ -436,19 +436,19 @@
                                     <div class="columnIconHighlightBox genericComponent parbase section">
                                         <section
                                                 class="iconHighlightBoxContent no-overlay left-button-alignment left-headline-alignment same-height-right"
-                                                style="min-height: 200px;">
+                                                style="min-height: 100px;">
                                             <h3>
                                                 <span id="newsFourTitle" class="same-height-right"
                                                       style="height: 31px;">2016中远财务有限责任公司...</span>
                                             </h3>
                                             <div class="paragraph rte-content-wrapper same-height-right"
-                                                 style="min-height: 80px;">
+                                                 style="min-height: 50px;">
                                                 <p id="newsFour">SAP 推出的这些面向中小型企业的软件中，有价格在你承受范围内的业务管理软件、行业特定的 ERP
                                                     解决方案和功能强大的业务分析软件，你可以根据需要自行选择。化繁为简，就是现在！<br>
                                                 </p>
                                             </div>
                                             <ul>
-                                                <p class="more">更多 > </p>
+                                                <p class="more" style="padding:0px">更多 > </p>
                                             </ul>
                                         </section>
                                     </div>
@@ -476,7 +476,7 @@
                     <div class="col-md-8 col-sm-12 hidden-xs">
                         <div class="left">
                             <div class="left_inner row">
-                                <div class="col-sm-3">
+                                <div class="col-sm-4">
                                     <label>相关客户链接</label>
                                     <ul>
                                         <li>
@@ -521,7 +521,7 @@
                                         </li>
                                     </ul>
                                 </div>
-                                <div class="col-sm-3">
+                                <div class="col-sm-4">
 
                                     <label>&nbsp;
                                     </label>
@@ -570,7 +570,7 @@
 
                                     </ul>
                                 </div>
-                                <div class="col-sm-3">
+                                <div class="col-sm-4">
                                     <label>
                                         &nbsp;
                                     </label>

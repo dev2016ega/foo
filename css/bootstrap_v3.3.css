@@ -1372,6 +1372,7 @@ th {
 	content: "\e260"
 }
 
+
 * {
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
@@ -5150,7 +5151,7 @@ textarea.input-group-sm>.input-group-btn>.btn {
 	float: left;
 	height: 50px;
 	padding: 15px 15px;
-	font-size: 18px;
+	font-size: 1.5em;
 	line-height: 20px
 }
 

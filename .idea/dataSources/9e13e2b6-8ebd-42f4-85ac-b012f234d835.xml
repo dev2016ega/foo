@@ -17,7 +17,7 @@
       <sequence-identity>1</sequence-identity>
     </column>
     <column id="10" parent="7" name="label">
-      <comment>顺序标签</comment>
+      <comment>˳????ǩ</comment>
       <mandatory>1</mandatory>
       <data-type>int(2)|0</data-type>
       <default-expression>&apos;0&apos;</default-expression>
@@ -33,7 +33,7 @@
       <default-expression>&apos;&apos;</default-expression>
     </column>
     <column id="13" parent="7" name="link">
-      <comment>图片或视频URL</comment>
+      <comment>ͼƬ????ƵURL</comment>
       <mandatory>1</mandatory>
       <data-type>varchar(200)|0</data-type>
     </column>
