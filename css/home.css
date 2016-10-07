@@ -104,10 +104,8 @@ p{
 
 
 /*视频*/
-#video{
-	width: 100%;
-	height: 560px;
-	background-color: rgb(244, 244, 244);
+#video_new:hover{
+	cursor:pointer;
 }
 
 
@@ -132,3 +130,5 @@ footer{
 	color:#888888;
 	cursor: pointer;
 }
+
+

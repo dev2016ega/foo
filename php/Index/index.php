@@ -264,72 +264,50 @@
 
 <!---------end of square---------->
 
-<div id="video">
-    <div style="width:50%;padding:30px 10px 0px 15px;float:left">
-        <object id="video_squre"
-                data="http://player.youku.com/player.php/sid/XMTU4MzMyNTk3Mg==/isAutoPlay/false/newPlayer/true/v.swf"
-                width="100%" height="500px" type="application/x-shockwave-flash">
-            <param name="movie" value="vide o.swf"/>
-            <embed src="video.swf"/>
-        </object>
-    </div>
-    <div style="background-color: #F4F4F4;width: 50%;height:100%;float:left;">
-<!--        <p style="display:block;margin:auto">-->
-<!--            基于信息物理系统的智能制造信息技术与制造业深度融合，正在引领制造方式变革，形成新的产业形态和商业模式。了解SAP如何帮助客户驾驭工业4.0，抢占制造业新一轮竞争制高点。-->
-<!--            基于信息物理系统的智能制造信息技术与制造业深度融合，正在引领制造方式变革，形成新的产业形态和商业模式。了解SAP如何帮助客户驾驭工业4.0，抢占制造业新一轮竞争制高点。-->
-<!--        </p>-->
-        <div class="zzsc-container" style="text-align: center">
-            <div id='tag-cloud'></div>
+
+
+<!------------video new------------------->
+<div id = "video_new" style="margin-top:25px" onmouseover="btn_hover()" onmouseout="btn_out()" onclick = "video_play()">
+    <div id = "btn" style="background:url(../../img/index/video_btn.png) no-repeat;height:80px;width:80px;position:absolute;margin-top:250px;margin-left:47.5%"></div>
+    <div style="background:url(../../img/index/city.jpg); height:540px">
+        <div class="title" style="float:left;margin-top:145px;margin-left:36%;font-size:3em">
+            <p>您身边的金融咨询专家</p>
         </div>
-
-        <script src="../../js/jquery-2.1.1.min.js" type="text/javascript"></script>
-        <script src="../../js/jquery.svg3dtagcloud.min.js"></script>
-        <script>
-            $( document ).ready( function() {
-                var entries = [
-                    { label: '关于我们', url: '#', target: '_top' },
-                    { label: '咨询业务', url: '#', target: '_top' },
-                    { label: '风控系统', url: '#', target: '_top' },
-                    { label: '培训业务', url: '#', target: '_top' },
-                    { label: '公司动态', url: '#', target: '_top' },
-                    { label: '在线课程', url: '#', target: '_top' }
-                ];
-
-                var settings = {
-
-                    entries: entries,
-                    width: 640,
-                    height: 480,
-                    radius: '65%',
-                    radiusMin: 75,
-                    bgDraw: true,
-                    bgColor: '#F4F4F4',
-                    opacityOver: 1.00,
-                    opacityOut: 0.05,
-                    opacitySpeed: 6,
-                    fov: 800,
-                    speed: 0.2,
-                    fontFamily: 'Oswald, Arial, sans-serif',
-                    fontSize: '15',
-                    fontColor: '#000',
-                    fontWeight: 'normal',//bold
-                    fontStyle: 'normal',//italic
-                    fontStretch: 'normal',//wider, narrower, ultra-condensed, extra-condensed, condensed, semi-condensed, semi-expanded, expanded, extra-expanded, ultra-expanded
-                    fontToUpperCase: true
-
-                };
-
-                //var svg3DTagCloud = new SVG3DTagCloud( document.getElementById( 'holder'  ), settings );
-                $( '#tag-cloud' ).svg3DTagCloud( settings );
-
-            } );
-
-        </script>
+<!--        <a data-video-path="http://www-file.huawei.com/~/media/CORPORATE/Video/home/Building_a_Better_Connected_World_201620160905.mp4" data-video-path-mobile="http://www-file.huawei.com/~/media/CORPORATE/Video/home/Building_a_Better_Connected_World_201620160905.mp4" data-video-name="Building_a_Better_Connected_World_201620160905" data-player-autostart="1" href="http://www.huawei.com/cn/index.htm#" id="player100" data-img-path="http://www-file.huawei.com/~/media/CORPORATE/Images/home/big-banner/160913/hw1_index_video2.jpg" class="js_video_player"></a>-->
     </div>
-
 </div>
 
-<!--end of video-->
+<script>
+    function btn_hover(){
+        var btn = document.getElementById("btn");
+        btn.style.background = "url(../../img/index/video_btn_hover.png) no-repeat";
+    }
+
+    function btn_out(){
+        var btn = document.getElementById("btn");
+        btn.style.background = "url(../../img/index/video_btn.png) no-repeat";
+    }
+
+    function video_play(){
+
+    }
+</script>
+<!-------------end of video new--------------------------->
+
+
+<!------------------mo tai kuang --------------------------------->
+<!-- Large modal -->
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bs-example-modal-lg">Large modal</button>
+
+<div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            ...
+        </div>
+    </div>
+</div>
+<!------------------end of mo tai kuang --------------------------------->
+
 
 <div id="news">
     <div class="wrapper no-divider no">
