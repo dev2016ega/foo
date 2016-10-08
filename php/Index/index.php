@@ -268,8 +268,8 @@
 
 <!------------video new------------------->
 <div id = "video_new" style="margin-top:25px" onmouseover="btn_hover()" onmouseout="btn_out()" onclick = "video_play()">
-    <div id = "btn" style="background:url(../../img/index/video_btn.png) no-repeat;height:80px;width:80px;position:absolute;margin-top:250px;margin-left:47.5%"></div>
-    <div style="background:url(../../img/index/city.jpg); height:540px">
+    <div data-toggle="modal" data-target=".bs-example-modal-lg" id = "btn" style="background:url(../../img/index/video_btn.png) no-repeat;height:80px;width:80px;position:absolute;margin-top:250px;margin-left:47.5%"></div>
+    <div style="background:url(../../img/index/city.jpg) center; height:540px">
         <div class="title" style="float:left;margin-top:145px;margin-left:36%;font-size:3em">
             <p>您身边的金融咨询专家</p>
         </div>
@@ -297,12 +297,19 @@
 
 <!------------------mo tai kuang --------------------------------->
 <!-- Large modal -->
-<button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bs-example-modal-lg">Large modal</button>
+<!--<button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bs-example-modal-lg">Large modal</button>-->
 
 <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-lg">
         <div class="modal-content">
-            ...
+            <div style="width:100%;">
+                <object id="video_squre"
+                        data="http://player.youku.com/player.php/sid/XMTU4MzMyNTk3Mg==/isAutoPlay/false/newPlayer/true/v.swf"
+                        width="100%" height="600px" type="application/x-shockwave-flash">
+                    <param name="movie" value="vide o.swf"/>
+                    <embed src="video.swf"/>
+                </object>
+            </div>
         </div>
     </div>
 </div>
