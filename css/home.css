@@ -135,3 +135,9 @@ footer{
 h3,p,span,li:hover{
 	cursor:pointer;
 }
+.date{
+	width:35px;
+	position:absolute;
+	left:-3px;
+	top:24px;
+}

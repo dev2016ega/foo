@@ -325,13 +325,11 @@
                         <div class="responsiveColumnControl-item-set">
                             <div class="responsiveColumnControl-colctrl-col responsiveColumnControl-colctrl-col-50">
                                 <div class="responsiveColumnControl-item">
-
+                                <img src="../../img/index/Dec.png" class="date"/>
                                     <div class="columnIconHighlightBox genericComponent parbase section">
                                         <section
                                                 class="iconHighlightBoxContent no-overlay left-button-alignment left-headline-alignment same-height-left"
                                                 style="min-height: 100px;">
-                                            <div class="yufen">Oct</div>
-                                            <div class="date">9</div>
                                             <h3>
                                                 <span id="newsOneTitle" class="same-height-left" style="height: 31px;"></span>
                                             </h3>
@@ -352,6 +350,7 @@
 
                             <div class="responsiveColumnControl-colctrl-col responsiveColumnControl-colctrl-col-50">
                                 <div class="responsiveColumnControl-item">
+                                    <img src="../../img/index/Jun.png" class="date"/>
                                     <div class="columnIconHighlightBox genericComponent parbase section">
                                         <section
                                                 class="iconHighlightBoxContent no-overlay left-button-alignment left-headline-alignment same-height-right"
@@ -392,7 +391,7 @@
                         <div class="responsiveColumnControl-item-set">
                             <div class="responsiveColumnControl-colctrl-col responsiveColumnControl-colctrl-col-50">
                                 <div class="responsiveColumnControl-item">
-
+                                    <img src="../../img/index/Nov.png" class="date"/>
                                     <div class="columnIconHighlightBox genericComponent parbase section">
                                         <section
                                                 class="iconHighlightBoxContent no-overlay left-button-alignment left-headline-alignment same-height-left"
@@ -418,6 +417,7 @@
 
                             <div class="responsiveColumnControl-colctrl-col responsiveColumnControl-colctrl-col-50">
                                 <div class="responsiveColumnControl-item">
+                                    <img src="../../img/index/Oct.png" class="date"/>
                                     <div class="columnIconHighlightBox genericComponent parbase section">
                                         <section
                                                 class="iconHighlightBoxContent no-overlay left-button-alignment left-headline-alignment same-height-right"
