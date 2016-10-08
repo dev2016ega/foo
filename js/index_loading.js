@@ -7,7 +7,7 @@ $(document).ready(function() {
 		async: true,
 		success: function (data) {
 
-			alert("進來了");
+			// alert("進來了");
 			//加载幻灯片三张大图
 			document.getElementById("pic_one").src = data.Data.banner[0].link;
 			document.getElementById("pic_two").src = data.Data.banner[1].link;
