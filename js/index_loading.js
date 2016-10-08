@@ -2,7 +2,7 @@ $(document).ready(function() {
 
 	$.ajax({
 		type: "get",
-		url: "http://localhost/devega/index.php/index/get",
+		url: "http://localhost/devega/backIndex.php/index/get",
 		dataType:"json",
 		async: true,
 		success: function (data) {
@@ -13,10 +13,14 @@ $(document).ready(function() {
 			document.getElementById("pic_two").src = data.Data.banner[1].link;
 			document.getElementById("pic_three").src = data.Data.banner[2].link;
 
-			//加载三个方块图、文字
-			document.getElementById("squre_one").textContent = data.Data.about[0].content;
-			document.getElementById("squre_two").textContent = data.Data.about[1].content;
-			document.getElementById("squre_three").textContent = data.Data.about[2].content;
+			//加载三个方块图、文字、内容
+			document.getElementById("squre_one").textContent = data.Data.about[0].title;
+			document.getElementById("squre_two").textContent = data.Data.about[1].title;
+			document.getElementById("squre_three").textContent = data.Data.about[2].title;
+
+			$("#sqaure_one_content").text(data.Data.about[0].content);
+			$("#sqaure_two_content").text(data.Data.about[1].content);
+			$("#sqaure_three_content").text(data.Data.about[2].content);
 
 			document.getElementById("squre_pic_one").src = data.Data.about[0].link;
 			document.getElementById("squre_pic_two").src = data.Data.about[1].link;
