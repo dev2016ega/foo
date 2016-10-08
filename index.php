@@ -6,11 +6,9 @@
     <title></title>
     <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
     <link rel="stylesheet" href="css/home.css" type="text/css"/>
-    <!--<link rel="stylesheet" href="../../css/huandengpian.css" type="text/css"/>-->
     <link rel="stylesheet" href="css/linkcss.css" type="text/css">
     <link rel="stylesheet" href="css/reference.css" type="text/css"/>
     <link rel="stylesheet" href="css/bootstrap.css" type="text/css"/>
-<!--    <script src="../../js/jquery-1.7.1.min.js"></script>-->
     <link rel="stylesheet" href="css/bootstrap_v3.3.css" type="text/css"/>
     <Link rel="stylesheet" href="css/cover_css.css" type="text/css" />
     <script src="http://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js"></script>
@@ -33,53 +31,15 @@
                 <li>
                     <a href="#">关于我们</a>
                 </li>
-                <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                        咨询业务<b class="caret"></b>
+                <li>
+                    <a href="#">
+                        咨询业务</b>
                     </a>
-                    <ul class="dropdown-menu">
-                        <li>
-                            <a href="#">jmeter</a>
-                        </li>
-                        <li>
-                            <a href="#">EJB</a>
-                        </li>
-                        <li>
-                            <a href="#">Jasper Report</a>
-                        </li>
-                        <li class="divider"></li>
-                        <li>
-                            <a href="#">分离的链接</a>
-                        </li>
-                        <li class="divider"></li>
-                        <li>
-                            <a href="#">另一个分离的链接</a>
-                        </li>
-                    </ul>
                 </li>
-                <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                        风控系统<b class="caret"></b>
+                <li>
+                    <a href="#">
+                        风控系统</b>
                     </a>
-                    <ul class="dropdown-menu">
-                        <li>
-                            <a href="#">jmeter</a>
-                        </li>
-                        <li>
-                            <a href="#">EJB</a>
-                        </li>
-                        <li>
-                            <a href="#">Jasper Report</a>
-                        </li>
-                        <li class="divider"></li>
-                        <li>
-                            <a href="#">分离的链接</a>
-                        </li>
-                        <li class="divider"></li>
-                        <li>
-                            <a href="#">另一个分离的链接</a>
-                        </li>
-                    </ul>
                 </li>
                 <li>
                     <a href="#">培训业务</a>
@@ -107,8 +67,6 @@
     <!-- 轮播（Carousel）项目 -->
     <div class="carousel-inner">
         <div class="item active">
-            <!--<img id="pic_one" src="../../../../../Users/Zhong/Desktop/devega/前端/demo/img/QQ图片20160929205359.jpg"-->
-                 <!--alt="First slide">-->
             <img id="pic_one" src=""
                  alt="First slide">
         </div>
