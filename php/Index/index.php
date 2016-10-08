@@ -168,7 +168,7 @@
                 <div class="hw1_img" style="display:block;">
                     <a>
                         <img id="squre_pic_one"
-                             src="http://www-file.huawei.com/~/media/CORPORATE/Images/Index/%E7%AB%96%E7%89%88928-933-mate-book.jpg"
+                             src=""
                              class="img-responsive" alt="">
                     </a>
                 </div>
@@ -201,7 +201,7 @@
                         <div class="hw1_img" style="display:block;">
                             <a>
                                 <img id="squre_pic_two"
-                                     src="http://www-file.huawei.com/~/media/CORPORATE/Images/Index/leading_new_ict.jpeg"
+                                     src=""
                                      class="img-responsive" alt="">
                             </a>
                         </div>
@@ -232,7 +232,7 @@
                         <div class="hw1_img" style="display:block;">
                             <a>
                                 <img id="squre_pic_three"
-                                     src="http://www-file.huawei.com/~/media/CORPORATE/Images/Index/spotlight.jpg"
+                                     src=""
                                      class="img-responsive" alt="">
                             </a>
                         </div>
@@ -267,8 +267,8 @@
 
 
 <!------------video new------------------->
-<div id = "video_new" style="margin-top:25px" onmouseover="btn_hover()" onmouseout="btn_out()" onclick = "video_play()">
-    <div data-toggle="modal" data-target=".bs-example-modal-lg" id = "btn" style="background:url(../../img/index/video_btn.png) no-repeat;height:80px;width:80px;position:absolute;margin-top:250px;margin-left:47.5%"></div>
+<div  data-toggle="modal" data-target=".bs-example-modal-lg" id = "video_new" style="margin-top:25px" onmouseover="btn_hover()" onmouseout="btn_out()"">
+    <div id = "btn" style="background:url(../../img/index/video_btn.png) no-repeat;height:80px;width:80px;float:left;margin-top:250px;margin-left:47.5%"></div>
     <div style="background:url(../../img/index/city.jpg) center; height:540px">
         <div class="title" style="float:left;margin-top:145px;margin-left:36%;font-size:3em">
             <p>您身边的金融咨询专家</p>
@@ -288,9 +288,6 @@
         btn.style.background = "url(../../img/index/video_btn.png) no-repeat";
     }
 
-    function video_play(){
-
-    }
 </script>
 <!-------------end of video new--------------------------->
 
@@ -332,13 +329,13 @@
                                                 class="iconHighlightBoxContent no-overlay left-button-alignment left-headline-alignment same-height-left"
                                                 style="min-height: 100px;">
                                             <h3>
-                                                <span id="newsOneTitle" class="same-height-left" style="height: 31px;">2016中远财务有限责任公司...</span>
+                                                <span id="newsOneTitle" class="same-height-left" style="height: 31px;"></span>
                                             </h3>
 
                                             <div class="paragraph rte-content-wrapper same-height-left"
                                                  style="min-height: 50px;">
                                                 <p id="newsOne">
-                                                    基于信息物理系统的智能制造信息技术与制造业深度融合，正在引领制造方式变革，形成新的产业形态和商业模式。了解SAP如何帮助客户驾驭工业4.0，抢占制造业新一轮竞争制高点。<br>
+<!--                                                    基于信息物理系统的智能制造信息技术与制造业深度融合，正在引领制造方式变革，形成新的产业形态和商业模式。了解SAP如何帮助客户驾驭工业4.0，抢占制造业新一轮竞争制高点。<br>-->
                                                 </p>
                                             </div>
                                             <ul>
@@ -356,12 +353,11 @@
                                                 class="iconHighlightBoxContent no-overlay left-button-alignment left-headline-alignment same-height-right"
                                                 style="min-height: 100px;">
                                             <h3>
-                                                <span id="newsTwoTitle" class="same-height-right" style="height: 31px;">2016中远财务有限责任公司...</span>
+                                                <span id="newsTwoTitle" class="same-height-right" style="height: 31px;"></span>
                                             </h3>
                                             <div class="paragraph rte-content-wrapper same-height-right"
                                                  style="min-height: 50px;">
-                                                <p id="newsTwo">SAP 推出的这些面向中小型企业的软件中，有价格在你承受范围内的业务管理软件、行业特定的 ERP
-                                                    解决方案和功能强大的业务分析软件，你可以根据需要自行选择。化繁为简，就是现在！<br>
+                                                <p id="newsTwo"><br>
                                                 </p>
                                             </div>
                                             <ul>
@@ -399,13 +395,13 @@
                                                 style="min-height: 100px;">
                                             <h3>
                                                 <span id="newsThreeTitle" class="same-height-left"
-                                                      style="height: 31px;">2016中远财务有限责任公司...</span>
+                                                      style="height: 31px;"></span>
                                             </h3>
 
                                             <div class="paragraph rte-content-wrapper same-height-left"
                                                  style="min-height: 50px;">
                                                 <p id="newsThree">
-                                                    基于信息物理系统的智能制造信息技术与制造业深度融合，正在引领制造方式变革，形成新的产业形态和商业模式。了解SAP如何帮助客户驾驭工业4.0，抢占制造业新一轮竞争制高点。<br>
+<!--                                                    基于信息物理系统的智能制造信息技术与制造业深度融合，正在引领制造方式变革，形成新的产业形态和商业模式。了解SAP如何帮助客户驾驭工业4.0，抢占制造业新一轮竞争制高点。<br>-->
                                                 </p>
                                             </div>
                                             <ul>
@@ -424,12 +420,11 @@
                                                 style="min-height: 100px;">
                                             <h3>
                                                 <span id="newsFourTitle" class="same-height-right"
-                                                      style="height: 31px;">2016中远财务有限责任公司...</span>
+                                                      style="height: 31px;"></span>
                                             </h3>
                                             <div class="paragraph rte-content-wrapper same-height-right"
                                                  style="min-height: 50px;">
-                                                <p id="newsFour">SAP 推出的这些面向中小型企业的软件中，有价格在你承受范围内的业务管理软件、行业特定的 ERP
-                                                    解决方案和功能强大的业务分析软件，你可以根据需要自行选择。化繁为简，就是现在！<br>
+                                                <p id="newsFour"><br>
                                                 </p>
                                             </div>
                                             <ul>
