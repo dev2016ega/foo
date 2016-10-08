@@ -268,11 +268,12 @@
 
 <!------------video new------------------->
 <div  data-toggle="modal" data-target=".bs-example-modal-lg" id = "video_new" style="margin-top:25px" onmouseover="btn_hover()" onmouseout="btn_out()"">
-    <div id = "btn" style="background:url(../../img/index/video_btn.png) no-repeat;height:80px;width:80px;float:left;margin-top:250px;margin-left:47.5%"></div>
+
     <div style="background:url(../../img/index/city.jpg) center; height:540px">
         <div class="title" style="float:left;margin-top:145px;margin-left:36%;font-size:3em">
             <p>您身边的金融咨询专家</p>
         </div>
+        <div id = "btn" style="background:url(../../img/index/video_btn.png) no-repeat;height:80px;width:80px;float:left;margin-top:50px;margin-left:47.5%"></div>
 <!--        <a data-video-path="http://www-file.huawei.com/~/media/CORPORATE/Video/home/Building_a_Better_Connected_World_201620160905.mp4" data-video-path-mobile="http://www-file.huawei.com/~/media/CORPORATE/Video/home/Building_a_Better_Connected_World_201620160905.mp4" data-video-name="Building_a_Better_Connected_World_201620160905" data-player-autostart="1" href="http://www.huawei.com/cn/index.htm#" id="player100" data-img-path="http://www-file.huawei.com/~/media/CORPORATE/Images/home/big-banner/160913/hw1_index_video2.jpg" class="js_video_player"></a>-->
     </div>
 </div>
@@ -314,7 +315,8 @@
 
 
 <div id="news">
-    <div class="wrapper no-divider no">
+    <img src="../../img/index/newslogo.jpg" alt="" style="width:50px;margin-left:43%"/><span style="font-size:2em;margin-left:10px;margin-top:4px;position:absolute;">新闻动态</span>
+    <div class="wrapper no-divider no" style="margin-top:10px">
         <div class="inner-wrapper  ">
             <div class="responsiveColumnControl section iconHighlightBoxColumnControl">
                 <div class="responsiveColumnControl-wrap responsiveColumnControl-two-columns-50   responsiveColumnControl-list">
@@ -328,6 +330,8 @@
                                         <section
                                                 class="iconHighlightBoxContent no-overlay left-button-alignment left-headline-alignment same-height-left"
                                                 style="min-height: 100px;">
+                                            <div class="yufen">Oct</div>
+                                            <div class="date">9</div>
                                             <h3>
                                                 <span id="newsOneTitle" class="same-height-left" style="height: 31px;"></span>
                                             </h3>

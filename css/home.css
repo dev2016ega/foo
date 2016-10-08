@@ -124,6 +124,7 @@ footer{
 }
 
 .more{
+	z-index:-1;
 	position: absolute;
 	right:50px;
 	top:35px;
@@ -131,4 +132,6 @@ footer{
 	cursor: pointer;
 }
 
-
+h3,p,span,li:hover{
+	cursor:pointer;
+}
